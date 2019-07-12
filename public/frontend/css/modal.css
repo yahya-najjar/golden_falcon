@@ -1,0 +1,105 @@
+#submit-message.btn:hover {
+    background-color: #ebebeb;
+    color: #000;
+}
+
+#submit-message.btn:focus {
+    background-color: #ebebeb;
+    color: #000;
+}
+
+#submit-message.btn:active {
+    background-color: #ebebeb;
+    color: #000;
+}
+
+.video-section {
+    position: relative;
+    cursor: pointer;
+    margin-top: 8em;
+}
+
+.video-section:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: "\f01d";
+    font-family: FontAwesome;
+    font-size: 100px;
+    color: #fff;
+    opacity: 0.8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.video-section:hover:before {
+    color: #eee;
+}
+
+/*.modal-body {*/
+    /*position:relative;*/
+    /*padding:0px;*/
+/*}*/
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+/*.modal:before {*/
+    /*content: '';*/
+    /*display: inline-block;*/
+    /*height: 100%;*/
+    /*vertical-align: middle;*/
+    /*margin-right: -4px;*/
+/*}*/
+
+/*.modal-dialog {*/
+    /*display: inline-block;*/
+    /*!*text-align: left;*!*/
+    /*vertical-align: middle;*/
+    /*margin: 30px auto;*/
+/*}*/
+
+
+/*@media (max-width: 600px) {*/
+    /*.modal-dialog{*/
+        /*max-width: 500px;*/
+    /*}*/
+/*}*/
+
+.close {
+    position:absolute;
+    right: 7px;
+    top: -45px;
+    z-index:999;
+    font-size:4rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+}
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    padding: 0 !important;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 !important;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+
